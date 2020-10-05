@@ -6,7 +6,7 @@
 
     <groupId>io.hackerbay.fyipe</groupId>
     <artifactId>log-java</artifactId>
-    <version>3.0.5910</version>
+    <version>3.0.5926-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
