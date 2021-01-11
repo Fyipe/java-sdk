@@ -6,7 +6,7 @@
 
     <groupId>io.hackerbay.fyipe</groupId>
     <artifactId>java-sdk</artifactId>
-    <version>3.0.7687-SNAPSHOT</version>
+    <version>3.0.7689</version>
     <build>
         <plugins>
             <plugin>
