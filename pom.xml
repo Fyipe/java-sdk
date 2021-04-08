@@ -6,11 +6,7 @@
 
     <groupId>io.hackerbay.fyipe</groupId>
     <artifactId>java-sdk</artifactId>
-    <version>3.0.9742-SNAPSHOT</version>
-    <properties>
-        <name>java-sdk</name>
-        <version>1.0-SNAPSHOT</version>
-    </properties>
+    <version>3.0.9872-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -18,8 +14,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>7</source>
+                    <target>7</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -83,26 +79,10 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>properties-maven-plugin</artifactId>
-                <version>1.0.0</version>
-                <executions>
-                    <execution>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>write-project-properties</goal>
-                        </goals>
-                        <configuration>
-                            <outputFile>${project.build.outputDirectory}/properties-from-pom.properties</outputFile>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins> 
     </build>
     <name>Fyipe Application</name>
-    <description>A Fyipe package that send logs from your applications to your Fyipe dashboard.</description>
+    <description>A fyipe JS package that send logs from your applications to your fyipe dashboard.</description>
     <url>https://www.fyipe.com/</url>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
@@ -117,6 +97,7 @@
             <artifactId>junit</artifactId>
             <version>4.13</version>
         </dependency>
+
     </dependencies>
     <licenses>
         <license>
